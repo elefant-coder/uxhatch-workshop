@@ -3,7 +3,7 @@ const path = require('path');
 const { check, reveal } = require('../../lib/verify-core');
 
 const EXPECTED_SHA = '0e727f5e9a73bcb236c7a533ffcdd696cc4cba4921e2dfae793a6a2b71c4e383';
-const TOKEN_MASK = 'a3824a99afe0a04ad9767589';
+const TOKEN_MASK = 'a3824a99cfe8d92a';
 
 if (process.argv.includes('--hint')) {
   console.log('順番は C→A→B、ハイフン区切り、余白なし');

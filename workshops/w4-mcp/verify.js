@@ -3,7 +3,7 @@ const path = require('path');
 const { check, reveal } = require('../../lib/verify-core');
 
 const EXPECTED_SHA = '92bfd77e126c4d4d5d1cfe08acb4b857fd4692490b4142a2bfe80faf8c7fd48b';
-const TOKEN_MASK = 'c04a87287a39406fa297512a';
+const TOKEN_MASK = 'c04a8728033e2812';
 
 if (process.argv.includes('--hint')) {
   console.log('AIにMCPツール get_secret_token を呼ばせて .mcp-proof を作成し、その後 node verify.js を実行してください。');

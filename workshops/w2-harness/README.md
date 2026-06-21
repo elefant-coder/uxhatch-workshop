@@ -1,26 +1,28 @@
-# W2 Harness
+# W2 試して直す
 
-価格計算の小さな実装バグを、テストを足場にして直すワークです。
+価格計算の小さな間違いを、AIに確認しながら直してもらう練習です。
 
-`src/price.js` には2つのバグがあります。
+Claude CodeのCodeタブ、またはCodexデスクトップで次の場所を開きます。
 
-- 消費税が古い税率のままです。
-- `"1,200円"` のような金額文字列を正しく数値化できません。
-
-`price.js/test.js` のテスト判定ロジックは編集禁止、`price.js` の実装だけ直してください。作業中は `node test.js`、最後に `node verify.js` を実行します。
-
-Mac:
-
-```bash
-cd ~/uxhatch-workshop/workshops/w2-harness
-node test.js
-node verify.js
+```text
+uxhatch-workshop/workshops/w2-harness
 ```
 
-PowerShell:
+AIにこう頼みます。
 
-```powershell
-cd ${HOME}/uxhatch-workshop/workshops/w2-harness
+```text
+src/price.js を直して、node test.js が通るまで確認して。最後に答え合わせして
+```
+
+直すのはこの1つだけです。
+
+```text
+src/price.js
+```
+
+AIが中で実行する内容:
+
+```bash
 node test.js
 node verify.js
 ```

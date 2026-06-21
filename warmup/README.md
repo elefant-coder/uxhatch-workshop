@@ -1,17 +1,23 @@
 # Warmup
 
-Nodeが動くことを確認するセットアップ用ワークです。ここは成果物を作らず、検証コマンドを実行できれば成功します。
+最初の動作確認です。作るものはありません。
 
-Mac:
+Claude CodeのCodeタブ、またはCodexデスクトップで次の場所を開きます。
+
+```text
+uxhatch-workshop/warmup
+```
+
+AIにこう頼みます。
+
+```text
+答え合わせして
+```
+
+AIが中で実行する内容:
 
 ```bash
-cd ~/uxhatch-workshop/warmup
 node verify.js
 ```
 
-PowerShell:
-
-```powershell
-cd ${HOME}/uxhatch-workshop/warmup
-node verify.js
-```
+うまくいくと合言葉が表示されます。

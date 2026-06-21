@@ -3,7 +3,7 @@ const { check, reveal } = require('../../lib/verify-core');
 const { calcTotal, parseAmount } = require('./src/price');
 
 const EXPECTED_SHA = 'bdcf14c3ba7fa9581deb08a27205049d3e1db87a6446930a767853eaa2134bf5';
-const TOKEN_MASK = '0322fad2ba4ae5534664b910';
+const TOKEN_MASK = '0322fad2c05a9835';
 
 if (process.argv.includes('--hint')) {
   console.log('8%→10%。カンマと"円"を除去してparseInt。');

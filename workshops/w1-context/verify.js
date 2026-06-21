@@ -3,7 +3,7 @@ const path = require('path');
 const { check, reveal } = require('../../lib/verify-core');
 
 const EXPECTED_SHA = '298b4e8145924bcdbcf07e77335f4ba61715bb1727f5bd5dfeb09af9ecb7197d';
-const TOKEN_MASK = 'cd3c16eee7801580bdf37d47';
+const TOKEN_MASK = 'cd3c16ee95957afc';
 
 if (process.argv.includes('--hint')) {
   console.log('探すのは status=ok 以外の高額行。answer.txtに 注文ID|金額|店舗 を書く');

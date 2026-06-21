@@ -1,27 +1,27 @@
-# W5 Goal Loop
+# W5 上手なお願い
 
-ゴールを明確にして、AIに完了まで直させるワークです。
+完成条件を渡して、AIに最後まで直してもらう練習です。
 
-AIに次のように依頼してください。
+Claude CodeのCodeタブ、またはCodexデスクトップで次の場所を開きます。
 
 ```text
-spec.mdを読んで docs/README.md を作成し、node verify.js が合格するまで直して
+uxhatch-workshop/workshops/w5-goal-loop
 ```
 
-成果物は `docs/README.md` です。生成後に検証します。
+AIにこう頼みます。
 
-Mac:
+```text
+spec.md を読んで docs/README.md を作成し、node verify.js が合格するまで直して
+```
+
+できたら、AIにこう頼みます。
+
+```text
+答え合わせして
+```
+
+AIが中で実行する内容:
 
 ```bash
-cd ~/uxhatch-workshop/workshops/w5-goal-loop
-node verify.js --hint
-node verify.js
-```
-
-PowerShell:
-
-```powershell
-cd ${HOME}/uxhatch-workshop/workshops/w5-goal-loop
-node verify.js --hint
 node verify.js
 ```

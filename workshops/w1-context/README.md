@@ -1,25 +1,33 @@
-# W1 Context
+# W1 広い視界
 
-長いログから必要な1行だけを見つけるワークです。AIに `data/ledger.log` を調べさせ、`status=ok` 以外で高額な注文を探してください。
+長い記録の中から、いつもと違う高額な1行を見つける練習です。
 
-成果物は `work/answer.txt` です。形式は次の1行だけです。
+Claude CodeのCodeタブ、またはCodexデスクトップで次の場所を開きます。
+
+```text
+uxhatch-workshop/workshops/w1-context
+```
+
+AIにこう頼みます。
+
+```text
+data/ledger.log を読んで、status=ok 以外で金額が大きい注文を探し、work/answer.txt に 注文ID|金額|店舗 の1行で書いて
+```
+
+書く形:
 
 ```text
 注文ID|金額|店舗
 ```
 
-Mac:
+できたら、AIにこう頼みます。
 
-```bash
-cd ~/uxhatch-workshop/workshops/w1-context
-node verify.js --hint
-node verify.js
+```text
+答え合わせして
 ```
 
-PowerShell:
+AIが中で実行する内容:
 
-```powershell
-cd ${HOME}/uxhatch-workshop/workshops/w1-context
-node verify.js --hint
+```bash
 node verify.js
 ```

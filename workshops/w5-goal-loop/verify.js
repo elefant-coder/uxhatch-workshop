@@ -3,7 +3,7 @@ const path = require('path');
 const { check, reveal } = require('../../lib/verify-core');
 
 const EXPECTED_SHA = '54513249e91aecad590defb54970cac1b12912a3366c362ba1f3183d1ccf262b';
-const TOKEN_MASK = '35488fff2e213e9292eb6e64';
+const TOKEN_MASK = '35488fff5c285ced';
 const required = ['概要', '使い方', '例', '注意'];
 
 if (process.argv.includes('--hint')) {

@@ -1,21 +1,35 @@
-# W3 Skill
+# W3 手順レシピ
 
-AIエージェントに手順書を読ませて金庫を開けるワークです。
+隠れた手がかりを、決まった手順どおりに組み立てる練習です。
 
-Claude Codeでは「金庫を開けて」または `vault-unlock` と依頼します。Codexでは、このディレクトリの `AGENTS.md` を読んで実行するよう依頼してください。
+Claude CodeのCodeタブ、またはCodexデスクトップで次の場所を開きます。
 
-成果物はこのディレクトリ直下の `answer.txt` です。最後に検証します。
-
-Mac:
-
-```bash
-cd ~/uxhatch-workshop/workshops/w3-skill
-node verify.js
+```text
+uxhatch-workshop/workshops/w3-skill
 ```
 
-PowerShell:
+AIへの入口が少し違います。Claude Codeなら「金庫を開けて」、Codexなら「AGENTS.md を読んでその手順でやって」と頼んでください。
 
-```powershell
-cd ${HOME}/uxhatch-workshop/workshops/w3-skill
+Claude Codeで送る文:
+
+```text
+金庫を開けて
+```
+
+Codexで送る文:
+
+```text
+AGENTS.md を読んでその手順でやって
+```
+
+できたら、AIにこう頼みます。
+
+```text
+答え合わせして
+```
+
+AIが中で実行する内容:
+
+```bash
 node verify.js
 ```
