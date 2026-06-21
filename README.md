@@ -45,12 +45,13 @@ node verify.js
 
 | 順番 | 開く場所 | やること |
 |---|---|---|
-| Warmup | `warmup` | 最初の動作確認 |
-| W1 | `workshops/w1-context` | 長い記録から1件見つける |
-| W2 | `workshops/w2-harness` | 価格計算を試して直す |
-| W3 | `workshops/w3-skill` | 手順レシピで金庫を開ける |
-| W4 | `workshops/w4-mcp` | 同梱の道具をつなぐ |
-| W5 | `workshops/w5-goal-loop` | 完成条件を渡して最後まで直す |
+| ウォームアップ | `warmup` | 最初の動作確認 |
+| ステップ1 ハーネス | `workshops/w2-harness` | 価格計算を試して直るまで直す |
+| ステップ2 Skill | `workshops/w3-skill` | 「金庫を開ける」スキルを自分で作って使う |
+| ステップ3 MCP | （フォルダなし） | Claude デスクトップの「Customize→コネクタ」で Google カレンダー等を接続して使う |
+| ステップ4 ゴール設定とLoop | `workshops/w5-goal-loop` | 完了条件を渡して合格まで反復させる |
+
+※「コンテキスト」はスライドで口頭解説のみ（ワークなし）。「MCP」はデスクトップアプリで本物のコネクタをつなぐ体験（教材フォルダ不要）。
 
 困ったときは、AIに次も頼めます。
 
