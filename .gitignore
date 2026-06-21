@@ -1,0 +1,6 @@
+**/.mcp-proof
+**/answer.txt
+workshops/**/work/answer.txt
+scripts/
+**/docs/README.md
+!**/.gitkeep
